@@ -1,0 +1,286 @@
+<<<<<<< HEAD
+body {
+  background: #f9f9fb;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 340px;
+}
+
+h2 {
+  text-align: center;
+  color: #ff6fa5;
+  margin-bottom: 20px;
+}
+
+.offer-box {
+  border: 2px solid #d9e1ec;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 10px;
+  transition: all 0.3s;
+}
+
+.offer-box:hover {
+  border-color: #ff6fa5;
+}
+
+.popular {
+  border-color: #ff6fa5;
+  position: relative;
+}
+
+.offer {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.offer input[type="radio"] {
+  margin-top: 10px;
+}
+
+.offer-content {
+  flex: 1;
+}
+
+.offer-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.offer-title {
+  font-weight: 600;
+}
+
+.badge {
+  background: #ffe6ef;
+  color: #ff6fa5;
+  border-radius: 12px;
+  padding: 2px 8px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.most-popular {
+  background: #ff6fa5;
+  color: #fff;
+  font-size: 11px;
+}
+
+.desc {
+  font-size: 13px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.price {
+  font-weight: 600;
+  color: #333;
+}
+
+.old-price {
+  color: #999;
+  text-decoration: line-through;
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+.options {
+  margin: 8px 0;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.option label {
+  font-size: 13px;
+  width: 20px;
+}
+
+select {
+  padding: 3px 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.add-btn {
+  background: #ff6fa5;
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: #ff568a;
+=======
+body {
+  background: #f9f9fb;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 340px;
+}
+
+h2 {
+  text-align: center;
+  color: #ff6fa5;
+  margin-bottom: 20px;
+}
+
+.offer-box {
+  border: 2px solid #d9e1ec;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 10px;
+  transition: all 0.3s;
+}
+
+.offer-box:hover {
+  border-color: #ff6fa5;
+}
+
+.popular {
+  border-color: #ff6fa5;
+  position: relative;
+}
+
+.offer {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.offer input[type="radio"] {
+  margin-top: 10px;
+}
+
+.offer-content {
+  flex: 1;
+}
+
+.offer-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.offer-title {
+  font-weight: 600;
+}
+
+.badge {
+  background: #ffe6ef;
+  color: #ff6fa5;
+  border-radius: 12px;
+  padding: 2px 8px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.most-popular {
+  background: #ff6fa5;
+  color: #fff;
+  font-size: 11px;
+}
+
+.desc {
+  font-size: 13px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.price {
+  font-weight: 600;
+  color: #333;
+}
+
+.old-price {
+  color: #999;
+  text-decoration: line-through;
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+.options {
+  margin: 8px 0;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.option label {
+  font-size: 13px;
+  width: 20px;
+}
+
+select {
+  padding: 3px 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.add-btn {
+  background: #ff6fa5;
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: #ff568a;
+>>>>>>> c31a087cb7e11ab6dca4157aa217cd8d231560f2
+}
